@@ -68,11 +68,12 @@ a {
 .nav a:hover {
   color:black;
 }
-#l1:hover {color:Pink;}
-#l2:hover {color:green;}
-#l3:hover {color:blue;}
-#l4:hover {color:orange;}
-#l5:hover {color:purple;}
+#l1,#l2,#l3,#l4,#l5 {text-decoration: underline;}
+#l1:hover {color:Pink;  text-decoration: none;}
+#l2:hover {color:green;  text-decoration: none;}
+#l3:hover {color:blue;  text-decoration: none;}
+#l4:hover {color:orange;  text-decoration: none;}
+#l5:hover {color:purple;  text-decoration: none;}
 
 h2 {
   font-family: Helvetica, sans-serif;
